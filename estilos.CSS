@@ -1,0 +1,86 @@
+body{
+    background:linear-gradient(45deg,red,rgb(141, 141, 231),rgb(128, 34, 128),black);
+    background-size: 400% 400%;
+    position:relative;
+    animation: cambiar 5s ease infinite;
+}
+ div{
+    background-color: rgb(220, 230, 230);
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}   
+fieldset{
+      margin-bootom: 12px,
+    }
+       legend{
+        background-color: rgb(246, 109, 216);
+        padding: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    img{
+        border-radius: 80%;
+        margin-bottom: 15px;
+    }
+    @keyframes cambiar{
+        0% {background-position:0 50% ;}
+        50% {background-position:100% 50% ;}
+        100% {background-position:0 50% ;}
+    }
+      
+      
+    .redes div{
+    padding: 0,5px;
+     border-radius: 0,5px; 
+     padding: auto;
+
+}
+
+     .redes h2{
+       font-family: gabriola;
+       text-align: center;
+       font-weight: bold;
+    }
+
+    .sociales{
+        text-align: center;
+        padding-top: 0,5px;
+        padding-bottom: 0,5px;
+        
+    }
+
+    .sociales li{
+        display:inline-block;
+    }
+
+    .sociales a{
+        padding: 10px;
+    
+       }
+
+       form {
+        width: 450px;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border border-radius: 7px;
+    }
+
+
+   input,texterea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+
+    }
+
+    textarea {
+        min-height: 100px;
+
+    }
